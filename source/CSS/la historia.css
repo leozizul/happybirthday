@@ -17,7 +17,8 @@ h1, h2 {
     box-shadow: 0 2px 5px rgba(0,0,0,0.8);
     padding: 20px;
     overflow: hidden;
-    margin: 20px 40px;
+    margin: 20px;
+    width: 80%;
 }
 
 .centerimg {
@@ -74,7 +75,7 @@ h1 {
     #menu {
         flex-direction: column;
         gap: 50px;
-        margin: 20px 60px;
+        margin: 20px 50px;
     }
 
 }

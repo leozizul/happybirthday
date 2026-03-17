@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.memori{
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+.memori img{
+    max-width: 250px;
+    border-radius: 20px;
+}
+
+.hiddenteks{
+  display: none;
+  color: black;
+  text-align: center;
+}
+
+.hiddenteks.show{
+  display: block;
+}
+
+.isi {
+  border-radius: 20px;
+  width: 70%;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+}
+
+#memor1 {
+  background-color: #e7d1e5;
+}
+
+#memor2 img {
+  height: 300px;
+}
+
+#memor2 {
+  background-color: #e1e7dd;
+}
+
+#memor3 {
+  background-color: #d1c19b;
+}
+
+#memor4 {
+  background-color: #e3c0a2;
+}
+
+#memor4 img {
+  height: 200px;
+}
+
+#memor5 img {
+  height: 200px;
+}
+
+#memor5 {
+  background-color: #bcbcb0;
+}
+
+#memor6 img {
+  height: 200px;
+}
+
+#memor6 {
+  background-color: #e3847e;
+}
+
+#memor7 img {
+  height: 420px;
+}
+
+#memor7 {
+  background-color: #fce9c9;
+}
+
+@media screen and (max-width: 700px) {
+  .memori {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    height: auto;
+  }
+}

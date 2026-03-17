@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/css/halaman1.css">
+    <link rel="stylesheet" href="source/CSS/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aubrey&family=Paprika&family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="source/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/favicon-16x16.png">
+    <link rel="manifest" href="source/site.webmanifest">
+    <title>Ready or Not??</title>
+</head>
+<body>
+    <section>
+        <div id="judul">
+            <h1>Siap atau Tidak??</h1>
+        </div>
+        <div id="button">
+            <div id="ketentuan" onclick="openModal()">
+                <button>📜</button>
+            </div>
+
+            <div id="rule">
+                <div id="modal">
+                    <span class="close-btn" onclick="closeModal()">X</span>
+                    <ol>
+                        <li>
+                            Jangan baca di tempat umum yaa 🌐📍
+                        </li>
+                        <li>
+                            Duduk di tempat paling enakk 😄💺
+                        </li>
+                        <li>
+                            Siapkan makanan ato minuman pendamping (opsional) 🍔🥛
+                        </li>
+                        <li>
+                            Siapkan tisu (opsional) 🧻🗳️
+                        </li>
+                        <li>
+                            Siapkan mata dann selamat menyimakkk!! 🎉🥳
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div id="belum">
+                <a href="index.html">
+                    <button>Masii belom</button>
+                </a>
+            </div>
+            
+            <div id="setuju">
+                <a href="halaman2.html">
+                    <button>Udaa siap</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function openModal() {
+            document.getElementById("rule").style.display = "flex";
+        }
+
+        function closeModal() {
+            document.getElementById("rule").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+
+h2 {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.isi {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+    border-radius: 29px;
+    margin-top: 15px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FBEFEF;
+}
+
+.teks p{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease 0.2s;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.isi:hover .teks p{
+    opacity: 1;
+    transform: translateY(0);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.gambar img {
+    position: relative;
+    top: 40px;
+    transition: all 0.4s ease;
+}
+
+.isi:hover .gambar img {
+    transform: scale(1.05);
+}
+
+#bagian1 {
+    background-color: #F9DFDF;
+}
+
+#bagian2 {
+    background-color: #F9DFDF;
+}
+
+#bagian3 {
+    background-color: #F9DFDF;
+}
+
+#bagian4 {
+    background-color: #F9DFDF;
+}
+
+#bagian5 {
+    background-color: #F9DFDF;
+}
+
+@media screen and (max-width: 700px) {
+    .isi {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+
+    .teks p {
+        opacity: 1;
+    }
+}

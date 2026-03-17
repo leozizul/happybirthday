@@ -1,0 +1,80 @@
+
+h1, h2 {
+    font-family: "Grenze Gotisch", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#audio {
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+.cerita {
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+    padding: 20px;
+    overflow: hidden;
+    margin: 20px 40px;
+}
+
+.centerimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+#gambar2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+#p1 {
+    background-color: #F8FAB4;
+}
+
+#p2 {
+    background-color: #F08787;
+}
+
+#p3 {
+    background-color: #9CAFAA;
+}
+
+h1 {
+    text-align: center;
+}
+
+#gambarterakhir {
+    max-width: 400px;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    #gambar2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #gambarterakhir {
+        width: 300px;
+    }
+
+    #menu {
+        flex-direction: column;
+        gap: 50px;
+        margin: 20px 60px;
+    }
+
+}

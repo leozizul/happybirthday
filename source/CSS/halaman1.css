@@ -1,0 +1,115 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    background-color: rgba(249, 223, 223, 0.6);
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+
+#rule {
+    display: none;
+    font-family: "Aubrey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 150px;
+    height: 70px;
+    font-family: "Paprika", system-ui;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#ketentuan button:hover, #setuju button:hover, #belum button:hover {
+    background-color: #F5F5F0;
+    border: 2px solid #F5F5F0;
+    cursor: pointer;
+}
+
+#ketentuan button:active, #setuju button:active, #belum button:active {
+    background-color: #E491C9;
+    border: 2px solid #E491C9;
+    cursor: pointer;
+}
+
+#ketentuan button {
+    background-color: #FAAC68;
+}
+
+#setuju button {
+    background-color: #659287;
+}
+
+#belum button {
+    background-color: #AF3E3E;
+}
+
+#modal {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+    #button {
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        min-width: 200px;
+    }
+}

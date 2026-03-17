@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#link {
+    padding: 50px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: #FD7979;
+    padding: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #FCF8F8;
+    font-size: 30px;
+}
+
+a:hover {
+    background-color: #F9DFDF;
+    border:none;
+    color: #F9DFDF;
+}
+
+#dropdown:hover #isidropdown {
+    display: block;
+}
+
+#dropdown > p {
+    font-weight: bold;
+    text-align: center;
+}
+
+#dropdown:hover {
+    cursor: pointer;
+}
+
+#isidropdown {
+    display: none;
+    max-width: 600px;
+}
+
+h2 {
+    text-align: center;
+}
